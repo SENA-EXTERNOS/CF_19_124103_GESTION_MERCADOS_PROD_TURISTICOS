@@ -1,19 +1,299 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: scale 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 22%
+    bottom: 30%
+    left: 10%
+    width: 20%
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: float2 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 15%
+    right: 15%
+    width: 20%
 
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/banner-interno.png") !important
+  bottom: -130px   
 
-@keyframes float1
+@keyframes scale
   0%
-    transform: translateY(20px)
+    transform: scale(1)
 
   100%
-    transform: translateY(0px)
+    transform: scale(1.2)
+
+@keyframes float2
+  0%
+    transform: translateX(20px)
+
+  100%
+    transform: translateX(0px)    
+
+//custom para los bloque-texto-g  
+.bloque-texto-g1__img
+  width: 64%
+  position: absolute
+  top: 0
+  left: 380px
+  bottom: 0
+  background-position: center
+  background-size: cover
+  @media  ( max-width: 500px )
+    width: 100%
+    height: 30%
+    left: 0
+
+.bloque-texto-g1__texto
+  right: 270px
+  position: relative
+  width: 65%
+  background-color: rgba(255, 255, 255, 0.95)
+  @media ( max-width: 500px )
+    width: 100%
+    left: 0
+    top: -5px    
+//-------------------------------------------
+
+//background para SlyderB  
+.bkg-slyder
+  position: relative
+  width: 100% 
+  background-image: url("../assets/curso/temas/fondo-slyder.png")
+  background-size: cover
+  background-position: left top
+  background-repeat: no-repeat
+  border-radius: 15px  
+
+.slyder-a__tipo-b .slyder-a__btn--atrs, .slyder-a__tipo-b .slyder-a__btn--sigt 
+  background-color: #FECA2E
+
+//custom botones slyder en movil
+@media screen and ( max-width: 500px )
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs 
+    width: 30px
+    height: 30px  
+    position: absolute;
+    top: 15px;    
+//----------------------------------------------       
+
+// tamaño dots puntos calientes-------------
+.img-infografica__item, .img-infografica-b__item
+  position: absolute;
+  cursor: pointer;
+  transform: translate(-50%, -50%);
+  width: 5.5%;   
+//----------------------  
+
+//custom para cajones de colores------------------------- 
+.cajon.color1
+  background-color: #fed2d3
+.cajon.color1:before
+  background-color: #fc4b52
+.cajon.color2
+  background-color: #e9f9d1
+.cajon.color2:before
+  background-color: #a7e446      
+//--------------------------------------------------------- 
+
+//backgorund carrusel de tarjetas
+.bkg-carrusel
+  background-image: url("../assets/curso/temas/fondo-tarjetas.png") 
+  background-size: cover
+  background-position: left top
+  background-repeat: no-repeat
+  border-radius: 30px !important
+  width: 270px
+  height: 450px
+//--------------------------------------
+
+//color tabsa inactivas
+.tabs-a__tab
+  background-color: #E8E8E8  
+  width: 120% 
+  @media screen and ( max-width:500px  )
+    width: 100% 
+
+.tabs-a__content-item--active
+  margin-left: 40px
+  @media ( max-width: 500px )
+    margin-left: 0px
+  
+//------------------------    
+
+///// Linea tiempo D --------------------------------------
+.linea-tiempo-d__item__content.tarjeta.tarjeta--gris, .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+  background-color: #DFF7F9
+
+.linea-tiempo-d__item.row.linea-tiempo-d__item--selected
+  .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+    background-color: #FFF2CA
+
+.linea-tiempo-d.color-acento-botones .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  background-color: #FFF2CA  
+//-----------------------------------------
+
+//custom lineatiempo C--------------------------
+.linea-tiempo-c__header__btn, .linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right, .pasos-b__header__btn--left, .pasos-b__header__btn--right
+  background-color: #feca2e
+
+.linea-tiempo-c__header__btn--right:hover
+  border-color: #feca2e
+
+.linea-tiempo-c__header__btn--left:hover
+  border-color: #feca2e
+//-----------------------------------------------    
+
+//custom avatar-------------------
+.avatar
+  position: absolute
+  bottom: 0
+  right: -5rem
+  z-index: 1
+  @media (max-width: 500px)
+    display: flex
+    position: absolute
+    bottom: 0
+    right: -5rem
+    z-index: 1    
+
+.crd--avatarHorizontal
+  position: relative
+  padding-right: 12rem
+  & > *
+    position: relative
+  h3
+    margin: 0;
+    margin-left: -65px
+  p 
+    margin-left: -65px;
+  &::before  
+    position: absolute 
+    content: ''
+    top: 0
+    right: 110px
+    width: calc( 105% - 60px)
+    height: 100%
+  @media (max-width: 500px)
+    padding-right: 2rem
+    h3
+      margin: 0;
+      margin-left: -50px
+    p 
+      margin-right: 10px;
+      margin-left: -50px;    
+    &::before  
+      position: absolute 
+      content: ''
+      top: 0
+      right: 24px
+      width: calc( 60% - -100px)
+      height: 100%
+
+.crd-color1
+  &::before
+    background-color: #fec8ca !important
+.crd-color2
+  &::before
+    background-color: #ffe3e4 !important
+
+.crd--first
+  &::before 
+    border-top-left-radius: 30px
+    @media screen and ( max-width: 500px )
+      border-top-right-radius: 30px
+.crd--last
+  &::before 
+    border-bottom-left-radius: 30px
+    @media screen and ( max-width: 500px )
+      border-bottom-right-radius: 30px    
+
+///ubicación iconos avatar
+.numero
+  right: 70px;
+  position: relative
+  @media( max-width: 500px  )
+    left: -40px
+    position: relative 
+
+.img250
+  position: relative;
+  width: 363px;
+  top: 0px;
+  right: 3px;
+  @media ( max-width: 500px )
+    position: relative;
+    width: 94px;
+    right: 306px;
+    top: -1210px;
+
+
+//tamaño imagenes movil-------
+@media ( max-width: 500px )
+  .img-movil
+    margin-left: 70px; 
+    width: 50% !important
+    margin-bottom: 10px; 
+.img
+  width: 70%;
+  margin-bottom: 30px;
+//-----------------------------      
+
+//---------------------------------------------------      
+.figcaption
+    display: block;
+    background-color: #e8e8e8;
+    padding: 0.75em 1.5em;
+    font-size: 0.8em;
+    font-weight: inherit;
+//-------------------------------------
+
+//tamaño dot puntos calientes-------------
+.img-infografica.color-acento-botones .img-infografica__item__numero
+  font-size: xx-large;       
+//-------------------------------
+
+//colores para viñetas------------------------------------------------
+.vineta-fuscia
+  color: #FC4B52  !important
+.vineta-fuscia-stop
+  color: #FC4B52 !important
+.vineta-fuscia-circle
+  font-size: 0.6em;  
+  color: #FC4B52  !important
+.color-bloque-texto:before
+  background-color: #E9F8D0  
+  top: 55%;
+  bottom: -15px;
+  left: 35%;
+  right: 0;  
+//--------------------------------------------------------------------   
+
+//alineación texto--------------
+.alineacion1
+  position: absolute;
+  margin-left: 70%;
+  @media screen and ( max-width: 500px )
+    position: absolute
+    margin-left: 50%
+//-------------------------------
+
+//negrilla para titulos de TabsC Activos-----
+.tabs-c__tab--active
+  font-weight: bold
+  border-bottom: 4px solid !important
+//--------------------------------------------
+
+///// Custom acordeon A tipo A -------------------------------------- 
+.tarjeta.acordeonA
+  background-color: #ffffff 
+
+.acordion__accion__btn--a
+  background-color: #A7E446 !important
+
+.acordion__activo
+  background-color: #F2FBE3  !important
+//--------------------------------------------------------------------    
+   
+
