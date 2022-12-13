@@ -77,7 +77,7 @@
               figure
                 img(src='@/assets/curso/temas/tema2/t2-8.svg', alt='')           
             .col-lg-6
-              p Es útil para la presentación de propuestas formales, realizar informes y demás documentos que requiera la operación
+              p.mt-3 Es útil para la presentación de propuestas formales, realizar informes y demás documentos que requiera la operación
      
 
           .row.justify-content-center.my-4(titulo="Excel")
@@ -85,7 +85,7 @@
               figure
                 img(src='@/assets/curso/temas/tema2/t2-9.svg', alt='')             
             .col-lg-6
-              p Los programas de hoja de cálculo fueron desarrollados para simular y automatizar el libro mayor contable, ahora son utilizados para hacer casi cualquier tarea que implique cálculos numéricos repetitivos. Los documentos de hoja de cálculo permiten el registro de valores numéricos y fórmulas facilitando la actualización automatizada de los datos. Además, incluyen comandos para generar gráficos a fin de convertir los números en una variedad de gráficas.
+              p.mt-3 Los programas de hoja de cálculo fueron desarrollados para simular y automatizar el libro mayor contable, ahora son utilizados para hacer casi cualquier tarea que implique cálculos numéricos repetitivos. Los documentos de hoja de cálculo permiten el registro de valores numéricos y fórmulas facilitando la actualización automatizada de los datos. Además, incluyen comandos para generar gráficos a fin de convertir los números en una variedad de gráficas.
 
 
           .row.justify-content-center.my-4(titulo="Correo electrónico")
@@ -93,7 +93,7 @@
               figure
                 img(src='@/assets/curso/temas/tema2/t2-10.svg', alt='')          
             .col-lg-6
-              p El correo electrónico es otra herramienta que facilita la integración con el contratante, prestadores de servicios y clientes potenciales. Estos programas permiten a usuarios ocasionales de computadoras enviar fácilmente mensajes, los cuales se pueden escribir, dirigir, enviar, distribuir y responder en cuestión de minutos.
+              p.mt-3 El correo electrónico es otra herramienta que facilita la integración con el contratante, prestadores de servicios y clientes potenciales. Estos programas permiten a usuarios ocasionales de computadoras enviar fácilmente mensajes, los cuales se pueden escribir, dirigir, enviar, distribuir y responder en cuestión de minutos.
    
 
           .row.justify-content-center.my-4(titulo="<em>E-mail</em>")
@@ -101,7 +101,7 @@
               figure
                 img(src='@/assets/curso/temas/tema2/t2-11.svg', alt='')            
             .col-lg-6
-              p El correo electrónico ha permitido cambiar el concepto de la comunicación escrita, reemplazó rápidamente el correo postal y amplió el radio de contacto con las personas en el medio empresarial, permitiendo llegar de forma ágil y personal a contactar inclusive al gerente, sin pasar por ningún otro eslabón.
+              p.mt-3 El correo electrónico ha permitido cambiar el concepto de la comunicación escrita, reemplazó rápidamente el correo postal y amplió el radio de contacto con las personas en el medio empresarial, permitiendo llegar de forma ágil y personal a contactar inclusive al gerente, sin pasar por ningún otro eslabón.
  
 
           .row.justify-content-center.my-4(titulo="Creación de correo")
@@ -109,7 +109,7 @@
               figure
                 img(src='@/assets/curso/temas/tema2/t2-12.svg', alt='')             
             .col-lg-6
-              p Inicia con la creación de una cuenta con un nombre de usuario (#[em login, name] o alias) y un área de almacenamiento para los mensajes (buzón de correo o #[em mail box]). 
+              p.mt-3 Inicia con la creación de una cuenta con un nombre de usuario (#[em login, name] o alias) y un área de almacenamiento para los mensajes (buzón de correo o #[em mail box]). 
 
 
           .row.justify-content-center.my-4(titulo="<em>e-mails</em> masivos")
@@ -117,7 +117,7 @@
               figure
                 img(src='@/assets/curso/temas/tema2/t2-13.svg', alt='')            
             .col-lg-6
-              p Una ventaja para la empresa es poder enviar mensajes masivos de promoción, facilitando la rápida divulgación de textos, imágenes, archivos adjuntos y multimedia.  
+              p.mt-3 Una ventaja para la empresa es poder enviar mensajes masivos de promoción, facilitando la rápida divulgación de textos, imágenes, archivos adjuntos y multimedia.  
  
 
           .row.justify-content-center.my-4(titulo="Arroba")
@@ -125,7 +125,7 @@
               figure
                 img(src='@/assets/curso/temas/tema2/t2-14.svg', alt='')            
             .col-lg-6
-              p Una dirección de #[em e-mail] de Internet está compuesta por dos partes separadas por un signo arroba ‘@’: el nombre de usuario de la persona y el nombre del #[em host], es decir, de la computadora #[em host], la red o la dirección del IP donde el usuario recibe el correo. 
+              p.mt-3 Una dirección de #[em e-mail] de Internet está compuesta por dos partes separadas por un signo arroba ‘@’: el nombre de usuario de la persona y el nombre del #[em host], es decir, de la computadora #[em host], la red o la dirección del IP donde el usuario recibe el correo. 
  
 
           .row.justify-content-center.my-4(titulo="Redes sociales")
@@ -133,7 +133,7 @@
               figure
                 img(src='@/assets/curso/temas/tema2/t2-15.svg', alt='')            
             .col-lg-6
-              p Las redes sociales como canales de difusión empresarial han tomado fuerza. Entre los medios a utilizar están los videos sobre servicios y campañas publicitarias, concursos y otras estrategias. Más del 90 % de los clientes potenciales están en estas. 
+              p.mt-3 Las redes sociales como canales de difusión empresarial han tomado fuerza. Entre los medios a utilizar están los videos sobre servicios y campañas publicitarias, concursos y otras estrategias. Más del 90 % de los clientes potenciales están en estas. 
  
 
           .row.justify-content-center.my-4(titulo="Redes")
@@ -141,7 +141,7 @@
               figure
                 img(src='@/assets/curso/temas/tema2/t2-16.svg', alt='')             
             .col-lg-6
-              p Las redes son excelentes herramientas para saber lo que funciona o no de los servicios, y también un canal de comunicación personalizado de atención a clientes.
+              p.mt-3 Las redes son excelentes herramientas para saber lo que funciona o no de los servicios, y también un canal de comunicación personalizado de atención a clientes.
                                                                                                                                         
     .row.justify-content-center.mt-5
       .col-lg-10

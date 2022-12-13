@@ -21,19 +21,19 @@
     .bkg-slyder.px-5.py-5.mb-5.mt-5
       SlyderA(tipo="b")
         .row.justify-content-center
-          .col-md-8
+          .col-md-7
             ul.lista-ul
               li 
                 i.fas.fa-circle.vineta-fuscia-circle
                 | #[strong Eventos digitales]        
             p Es similar a un evento tradicional, marca la diferencia al ser en línea y permitir que los asistentes se reúnan desde lugares diversos a través de una plataforma.
             p Presenta algunas ventajas como, por ejemplo, proporcionar al organizador la alternativa de ampliar el número de participantes y ponentes que puedan estar ubicados en diferentes partes del mundo o que presentan incompatibilidad de horario.
-          .col-md-4
+          .col-md-5
             figure
              img(src='@/assets/curso/temas/tema1/t1-2.png', alt='Texto que describa la imagen')
 
         .row.justify-content-center
-          .col-md-8
+          .col-md-7
             ul.lista-ul
               li 
                 i.fas.fa-circle.vineta-fuscia-circle
@@ -41,128 +41,128 @@
             p Su característica principal se encuentra en la interacción y participación incrementada al combinar acciones físicas o materiales con la virtualidad. Se realiza con presencia física de los actores en diferentes sedes que están enlazadas vía #[em streaming], posibilitando una retransmisión en vivo y entregando experiencias reales sincrónicas.
             p En el espacio físico normalmente asiste un reducido número de personas y en el virtual se usan plataformas audiovisuales y tecnológicas (videoconferencias en #[em streaming, chats], etc.) a través de las cuales se puede participar desde cualquier lugar. Cuenta con varias ventajas: ahorro en tiempo y gastos que se derivan de los traslados de personas, audiencias más numerosas y mejora el impacto en redes sociales.
 
-          .col-md-4
+          .col-md-5
             figure
              img(src='@/assets/curso/temas/tema1/t1-3.png', alt='Texto que describa la imagen').mt-2
 
         .row.justify-content-center
-          .col-md-8
+          .col-md-7
             ul.lista-ul
               li 
                 i.fas.fa-circle.vineta-fuscia-circle
                 | #[strong Eventos en escenarios 3D con la personificación de avatares]
             p Se usa una réplica del rostro de una persona en un avatar en 3D, lo cual facilita que sea una figura capaz de interactuar de manera inmersiva en escenarios virtuales.
-          .col-md-4
+          .col-md-5
             figure
              img(src='@/assets/curso/temas/tema1/t1-4.svg', alt='Texto que describa la imagen').mt-2  
 
         .row.justify-content-center
-          .col-md-8
+          .col-md-7
             ul.lista-ul
               li 
                 i.fas.fa-circle.vineta-fuscia-circle
                 | #[strong Eventos sostenibles]
             p Las acciones amigables con el medioambiente son una consigna mundial, razón por la cual muchas empresas se enfocan en eventos que minimicen la afectación al ecosistema promocionando la producción del lugar y la conexión con la naturaleza. Algunas medidas que se vienen utilizando son: ofrecimiento de medios de transporte menos contaminantes, ajuste de las cantidades de alimentos sobrantes en comidas y cenas, etc.
-          .col-md-4
+          .col-md-5
             figure
              img(src='@/assets/curso/temas/tema1/t1-5.png', alt='Texto que describa la imagen').mt-2   
 
         .row.justify-content-center
-          .col-md-8
+          .col-md-7
             ul.lista-ul
               li 
                 i.fas.fa-circle.vineta-fuscia-circle
                 | #[strong #[em Small meeting]]
             p Consiste en organizar pequeños espacios y grupos de trabajo observando los protocolos de bioseguridad. Sus usuarios valoran el trabajo en equipo, reforzando vínculos personales y profesionales con clientes, proveedores y colaboradores.
-          .col-md-4
+          .col-md-5
             figure
              img(src='@/assets/curso/temas/tema1/t1-6.png', alt='Texto que describa la imagen').mt-2   
 
         .row.justify-content-center
-          .col-md-8
+          .col-md-7
             ul.lista-ul
               li 
                 i.fas.fa-circle.vineta-fuscia-circle
                 | #[strong Cumbre virtual]
             p El formato está diseñado en función del #[em marketing], los ponentes presentan información específica tendiente a varios objetivos: captación y fidelización de clientes, construcción de imagen y marca, etc., generando así nuevos contenidos a su audiencia; el promedio de oradores es de 30 y su duración varía entre 3 y 10 días.
-          .col-md-4
+          .col-md-5
             figure
              img(src='@/assets/curso/temas/tema1/t1-7.png', alt='Texto que describa la imagen').mt-2               
 
         .row.justify-content-center
-          .col-md-8
+          .col-md-7
             ul.lista-ul
               li 
                 i.fas.fa-circle.vineta-fuscia-circle
                 | #[strong Conferencias #[em online]]
             p Sus oradores y temáticas son variados, se realiza en vivo y cuenta con áreas virtuales de relajación para la práctica de #[em networking] y el entretenimiento.
-          .col-md-4
+          .col-md-5
             figure
              img(src='@/assets/curso/temas/tema1/t1-8.png', alt='Texto que describa la imagen').mt-2               
 
         .row.justify-content-center
-          .col-md-8
+          .col-md-7
             ul.lista-ul
               li 
                 i.fas.fa-circle.vineta-fuscia-circle
                 | #[strong #[em Webinar]]
             p Conferencia, taller o seminario virtual con contenido educativo. Su principal diferencia radica en el nivel de participación de los asistentes, porque en estos eventos la interactividad es mayor que en otros de tipo académico.
-          .col-md-4
+          .col-md-5
             figure
              img(src='@/assets/curso/temas/tema1/t1-9.png', alt='Texto que describa la imagen').mt-2               
 
         .row.justify-content-center
-          .col-md-8
+          .col-md-7
             ul.lista-ul
               li 
                 i.fas.fa-circle.vineta-fuscia-circle
                 | #[strong Talleres #[em online]]
             p Se brinda entrenamiento práctico a los empleados de una organización y puede durar entre 30 minutos a 3 horas. Es necesario que no sea muy extenso y elimine barreras de acceso para las personas que están trabajando. 
-          .col-md-4
+          .col-md-5
             figure
              img(src='@/assets/curso/temas/tema1/t1-10.png', alt='Texto que describa la imagen').mt-2               
 
         .row.justify-content-center
-          .col-md-8
+          .col-md-7
             ul.lista-ul
               li 
                 i.fas.fa-circle.vineta-fuscia-circle
                 | #[strong Chats #[em online fireside] (caseros)]
             p Formato caracterizado por facilitar la cercanía entre asistentes y oradores en sesiones privadas; también puede darse como una sesión complementaria en una cumbre o conferencia virtual.
-          .col-md-4
+          .col-md-5
             figure
              img(src='@/assets/curso/temas/tema1/t1-11.png', alt='Texto que describa la imagen').mt-2               
 
         .row.justify-content-center
-          .col-md-8
+          .col-md-7
             ul.lista-ul
               li 
                 i.fas.fa-circle.vineta-fuscia-circle
                 | #[strong Ferias y exposiciones comerciales virtuales]
             p Formato de gran escala en el cual se exponen productos y servicios de manera directa, con el objetivo de sensibilizar a futuros clientes y fidelizar a los existentes. 
-          .col-md-4
+          .col-md-5
             figure
              img(src='@/assets/curso/temas/tema1/t1-12.png', alt='Texto que describa la imagen').mt-2               
 
         .row.justify-content-center
-          .col-md-8
+          .col-md-7
             ul.lista-ul
               li 
                 i.fas.fa-circle.vineta-fuscia-circle
                 | #[strong #[em Happy hour] virtual o #[em afterwork]]
             p Son eventos cortos que se pueden realizar en cualquier momento, fomentando la interacción entre los participantes en un ambiente más tranquilo. La idea es que el organizador envíe previamente a la casa de sus invitados un desayuno, bebida o algún tipo de merienda para que pueda ser compartida de manera #[em online] con los otros participantes. Propicia el relacionamiento y denota afecto y atención en el bienestar entre oferente e invitados.
-          .col-md-4
+          .col-md-5
             figure
              img(src='@/assets/curso/temas/tema1/t1-13.png', alt='Texto que describa la imagen').mt-2               
 
         .row.justify-content-center
-          .col-md-8
+          .col-md-7
             ul.lista-ul
               li 
                 i.fas.fa-circle.vineta-fuscia-circle
                 | #[strong #[em Tour] virtual]
             p “Se crean a partir de la tecnología de realidad virtual que permite la construcción de lugares artificiales para generar experiencias inmersivas a los usuarios. Cada participante puede desplazarse e interactuar con elementos o mobiliario del lugar que se está mostrando”. (Museo Nacional de Colombia, 2022). El #[em tour] puede ser un recorrido programado o no, con libre desplazamiento.
-          .col-md-4
+          .col-md-5
             figure
              img(src='@/assets/curso/temas/tema1/t1-14.png', alt='Texto que describa la imagen').mt-2               
              
@@ -174,7 +174,7 @@
             i.fas.fa-stop.vineta-fuscia-stop
             | #[strong Plataformas para desarrollar eventos virtuales]
       
-      p A continuación, se identifican las diferentes plataformas para desarrollar los eventos virtuales:
+        p A continuación, se identifican las diferentes plataformas para desarrollar los eventos virtuales:
       
 
     .row.justify-content-center.mt-5
@@ -265,7 +265,8 @@
 
     .row.justify-content-center
       .col-lg-10
-        TabsA.color-acento-contenido.mt-3
+        p.text-bold A continuación, se mencionan algunas estrategias para la producción de eventos.
+        TabsA.color-acento-contenido.mt-5
           .tarjeta.color-acento-contenido.p-3(style="background-color:#fee3e4" titulo="Desarrollo de contenidos")
             .row.justify-content-center.p-3
               .col-8.col-lg-4.mb-3
