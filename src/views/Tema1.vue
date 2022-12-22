@@ -186,11 +186,11 @@
 
           .tarjeta.color-acento-botones.p-4(x="25.6%" y="14.5%" numero="+")
             h2 Zoom
-            p Es intuitiva y fácil de usar. Transmite reuniones, conferencias y seminarios #[em web] con video, audio y mensajería instantánea. Dispone de versión #[em premium], que posibilita tener hasta 1.000 participantes y 10.000 espectadores con herramientas interactivas.
+            p Es intuitiva y fácil de usar. Transmite reuniones, conferencias y seminarios web con video, audio y mensajería instantánea. Dispone de versión #[em premium], que posibilita tener hasta 1.000 participantes y 10.000 espectadores con herramientas interactivas.
           
           .tarjeta.color-acento-botones.p-4(x="58%" y="14.5%" numero="+")
             h2 Google Meet
-            p Es una aplicación de videoconferencias desarrollada por la compañía Google Inc. Se accede desde buscadores #[em web] y dispositivos móviles; las empresas y organizaciones son sus principales usuarios, ya que fue ideada para dinamizar el entorno laboral. Para poder crear las reuniones se debe tener una cuenta activa en Google.
+            p Es una aplicación de videoconferencias desarrollada por la compañía Google Inc. Se accede desde buscadores web y dispositivos móviles; las empresas y organizaciones son sus principales usuarios, ya que fue ideada para dinamizar el entorno laboral. Para poder crear las reuniones se debe tener una cuenta activa en Google.
 
           .tarjeta.color-acento-botones.p-4(x="90.5%" y="14.5%" numero="+")
             h2 Microsoft Teams
@@ -350,7 +350,7 @@
                 li 
                   i.fas.fa-circle.vineta-fuscia-circle
                   | #[strong Eventos Red Bull]
-              p Red Bull ha logrado posicionar su marca a través de eventos deportivos de acción, en los que se encarga de generar emociones fuertes y hacer que los asistentes identifiquen la marca con fuerza, adrenalina y aventura. Así, la compañía no solo tiene el poder de atraer a quienes disfrutan de su producto, sino también a los que no lo hacen a través de shows memorables.
+              p Red Bull ha logrado posicionar su marca a través de eventos deportivos de acción, en los que se encarga de generar emociones fuertes y hacer que los asistentes identifiquen la marca con fuerza, adrenalina y aventura. Así, la compañía no solo tiene el poder de atraer a quienes disfrutan de su producto, sino también a los que no lo hacen a través de #[i shows] memorables.
             .col.col-lg-4
               figure
                 img(src='@/assets/curso/temas/tema1/t1-26.png', alt='')              
@@ -433,13 +433,13 @@
 
     .row.justify-content-center.mt-5
       .col-12
-        LineaTiempoE.color-acento-botones.mb-5
+        LineaTiempoT.color-acento-botones.mb-5
           .row(titulo="Promoción e impacto en redes sociales")
             .col-lg-4.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema1/t1-35.svg', alt='')
             .col-lg-8.mb-4.mb-lg-0
-              p.mt-3 Cada una de las plataformas sociales que existen en la #[em web], tienen de manera individual un sistema que mide el alcance y cobertura de una actividad.
+              p.mt-3 Cada una de las plataformas sociales que existen en la web, tienen de manera individual un sistema que mide el alcance y cobertura de una actividad.
           .row(titulo="Satisfacción con el evento")
             .col-lg-4.mb-3.mb-lg-0
               figure
@@ -451,8 +451,8 @@
               figure
                 img(src='@/assets/curso/temas/tema1/t1-37.svg', alt='')
             .col-lg-8.mb-4.mb-lg-0
-              p.mt-2 Se deben evaluar temas como: calidad de los ponentes, adecuación de las salas, horarios, disposición del personal del evento, instalaciones, tecnología, etc. Se puede hacer uso de una app específicamente para el evento que pondere esta información, incrementando el índice de respuestas.
-          .row(titulo="Engagement y participación de los asistentes")
+              p.mt-2 Se deben evaluar temas como: calidad de los ponentes, adecuación de las salas, horarios, disposición del personal del evento, instalaciones, tecnología, etc. Se puede hacer uso de una #[i app] específicamente para el evento que pondere esta información, incrementando el índice de respuestas.
+          .row(titulo="<em>Engagement</em> y participación de los asistentes")
             .col-lg-4.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema1/t1-38.svg', alt='')
@@ -480,10 +480,10 @@
     .row.justify-content-center.mt-5
       .col-lg-10
         p A continuación, se brinda un ejemplo de inventario de equipo y materiales para la producción de un evento.
-        ImagenInfografica.color-acento-botones.mt-3
+        ImagenInfografica.color-acento-botones.mt-3.bkg-punto-caliente
           template(v-slot:imagen)
             figure
-              img(data-aos="flip-left" src='@/assets/curso/temas/tema1/t1-40.png', alt='Texto que describa la imagen')
+              img(data-aos="flip-left" src='@/assets/curso/temas/tema1/t1-40.svg', alt='Texto que describa la imagen')
 
           .tarjeta.color-acento-botones.p-4(x="38%" y="22.5%" numero="+")
             h2 Código 
@@ -514,10 +514,10 @@
         .bloque-texto-b.color-bloque-texto.p-4
           .bloque-texto-b__texto
             i.fas.fa-quote-left.vineta-fuscia
-            p.text-bold Dependiendo de las políticas y las necesidades de la organización o el contratante, puede agregar al formato columnas como ubicación (nombre de la dependencia donde se encuentra el equipo); fecha de ingreso (fecha de adquisición del bien); N.º factura (número de factura del bien cuando fue adquirido); observaciones/motivos de baja (observaciones relacionadas con el estado del bien u otras como motivos por el que fue dado de baja).
+            p Dependiendo de las políticas y las necesidades de la organización o el contratante, puede agregar al formato columnas como ubicación (nombre de la dependencia donde se encuentra el equipo); fecha de ingreso (fecha de adquisición del bien); N.º factura (número de factura del bien cuando fue adquirido); observaciones/motivos de baja (observaciones relacionadas con el estado del bien u otras como motivos por el que fue dado de baja).
             i.fas.fa-quote-right.vineta-fuscia
             
-          p.alineacion1 - (SENA, 2017)
+          p.alineacion1 (SENA, 2017)
 
     .row.justify-content-center.mt-5
       .col-lg-10
@@ -546,9 +546,9 @@
         .bloque-texto-b.color-bloque-texto.p-4
           .bloque-texto-b__texto
             i.fas.fa-quote-left.vineta-fuscia
-            p.text-bold El formato para solicitud y devolución de equipos es construido por cada contratante u organización según sus políticas organizacionales. Se realiza a partir del momento que se tiene la información del servicio a ejecutar, y se seleccionan los equipos necesarios; con ello, se hace la solicitud al encargado del almacenamiento o él mismo realiza el alistamiento.
+            p El formato para solicitud y devolución de equipos es construido por cada contratante u organización según sus políticas organizacionales. Se realiza a partir del momento que se tiene la información del servicio a ejecutar, y se seleccionan los equipos necesarios; con ello, se hace la solicitud al encargado del almacenamiento o él mismo realiza el alistamiento.
             i.fas.fa-quote-right.vineta-fuscia        
-          p.alineacion1 - (SENA, 2017)
+          p.alineacion1 (SENA, 2017)
 
 
         figure.mt-5
@@ -745,9 +745,10 @@
 </template>
 
 <script>
+import LineaTiempoT from '../components/LineaTiempoT.vue'
 export default {
   name: 'Tema1',
-  components: {},
+  components: { LineaTiempoT },
   data: () => ({
     // variables de vue
   }),
