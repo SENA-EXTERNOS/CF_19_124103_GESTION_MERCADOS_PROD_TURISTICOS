@@ -247,13 +247,13 @@
             .col-8
               img(src='@/assets/curso/temas/tema1/t1-19.svg' alt='AvatarTop')
           h4.text-center.mt-5 Medios digitales
-          p.text-center Dicho esto, queda claro que los medios digitales representan una oportunidad para la formulación de estrategias de marca en las organizaciones.
+          p.text-center Los medios digitales representan una oportunidad para la formulación de estrategias de marca en las organizaciones.
 
         .tarjeta.bkg-carrusel.p-4
           .row.justify-content-center.mb-3
             .col-8
               img(src='@/assets/curso/temas/tema1/t1-20.svg' alt='AvatarTop')
-          h4.text-center.mt-5 Métricas de #[em marketing]
+          h4.text-center.mt-5 Métricas de  #[em marketing]
           p.text-center El mercadeo en este campo realiza métricas de #[em marketing] sincrónicas, interactuando con los consumidores y ajustando la estrategia a partir de los resultados.        
 
         .tarjeta.bkg-carrusel.p-4
@@ -326,7 +326,7 @@
             p Se deben utilizar espacios, tiempos y actividades innovadoras. Ante esto, las nuevas tecnologías aplicadas a los eventos son un ejemplo claro de las posibilidades de creatividad e innovación que tienen estas herramientas para generar notoriedad.               
 
           .row(numero="7" titulo="Recordar la experiencia")
-            p Adicionalmente, cuando el evento termine se debe continuar creando experiencia. Se puede hacer uso de video resúmenes o regalos pequeños que sean útiles y que sirvan de recordatorio, como cuadernos o bolígrafos con la identidad corporativa del evento.          
+            p Adicionalmente, cuando el evento termine se debe continuar creando experiencia. Se puede hacer uso de un video resumen o regalos pequeños que sean útiles y que sirvan de recordatorio, como cuadernos o bolígrafos con la identidad corporativa del evento.         
  
       .col-8.col-lg-4
         figure
@@ -349,8 +349,8 @@
               ul.lista-ul
                 li 
                   i.fas.fa-circle.vineta-fuscia-circle
-                  | #[strong Eventos Red Bull]
-              p Red Bull ha logrado posicionar su marca a través de eventos deportivos de acción, en los que se encarga de generar emociones fuertes y hacer que los asistentes identifiquen la marca con fuerza, adrenalina y aventura. Así, la compañía no solo tiene el poder de atraer a quienes disfrutan de su producto, sino también a los que no lo hacen a través de #[i shows] memorables.
+                  b Eventos <em>Red Bull</em>
+              p <em>Red Bull</em> ha logrado posicionar su marca a través de eventos deportivos de acción, en los que se encarga de generar emociones fuertes y hacer que los asistentes identifiquen la marca con fuerza, adrenalina y aventura. Así, la compañía no solo tiene el poder de atraer a quienes disfrutan de su producto, sino también a los que no lo hacen a través de #[i shows] memorables.
             .col.col-lg-4
               figure
                 img(src='@/assets/curso/temas/tema1/t1-26.png', alt='')              
@@ -429,7 +429,7 @@
               p Realizar seguimiento a la implementación de mejoras es fundamental cuando la actividad se ha realizado con anterioridad.
 
     .row.justify-content-center.mt-5
-      p La percepción de los asistentes es la apreciación subjetiva de los participantes. Se puede hacer considerando varios indicadores: 
+      p La percepción de los asistentes es una apreciación subjetiva de los participantes. Se puede hacer considerando varios indicadores: 
 
     .row.justify-content-center.mt-5
       .col-12
@@ -479,7 +479,7 @@
 
     .row.justify-content-center.mt-5
       .col-lg-10
-        p A continuación, se brinda un ejemplo de inventario de equipo y materiales para la producción de un evento.
+        p A continuación, se brinda un ejemplo de inventario de equipo y materiales para la producción de un evento: 
         ImagenInfografica.color-acento-botones.mt-3.bkg-punto-caliente
           template(v-slot:imagen)
             figure
@@ -622,7 +622,7 @@
 
     .row.justify-content-center.mt-5
       .col-lg-10
-        p Las técnicas permiten estandarizar los procedimientos de tal forma que se pueda tener un proceso único y siempre realizado de la misma manera, permitiendo sistematizar los resultados.
+        p Las técnicas permiten estandarizar los procedimientos de tal forma que se pueda tener un proceso único, siempre realizado de la misma manera. A continuación, algunos elementos que permiten sistematizar los resultados: 
 
     .bkg-slyder.px-5.py-5.mb-5.mt-5
       SlyderA(tipo="b")
@@ -671,7 +671,7 @@
         .row.justify-content-center
           .col-md-8
             p.text-bold Espacios
-            p Una vez analizado el aprovechamiento de los espacios y de las áreas especiales de almacenamiento, #[strong se debe tener en cuenta (SENA, 2017):]
+            p Una vez analizado el aprovechamiento de los espacios y de las áreas especiales de almacenamiento, #[strong se deben tener en cuenta los siguientes elementos (SENA, 2017):]
           .col-md-4
             figure
              img(src='@/assets/curso/temas/tema1/t1-53.svg', alt='Texto que describa la imagen').mt-2               
@@ -681,7 +681,7 @@
             ul.lista-ul
               li 
                 i.fas.fa-circle.vineta-fuscia-circle
-                | #[strong Revisión:]
+                | #[strong La revisión:]
             p Acción de comprobar el estado del equipo cada vez que se utiliza, haciendo uso de un registro al recibirlo probado y funcionando, o en condición de uso para evitar reclamos con posterioridad.
           .col-md-4
             figure

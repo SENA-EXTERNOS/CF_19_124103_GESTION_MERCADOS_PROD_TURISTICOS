@@ -12,7 +12,7 @@
 
     .row.justify-content-center.mt-5
       .col-lg-10
-        p En la producción de eventos las herramientas ofimáticas hacen referencia a las técnicas, aplicaciones y programas informáticos que se utilizan en funciones de administración para optimizar, automatizar y mejorar los procedimientos y tareas como:
+        p En la producción de eventos las herramientas ofimáticas hacen referencia a las técnicas, aplicaciones y programas informáticos que se utilizan en funciones de administración para optimizar, automatizar y mejorar los procedimientos y tareas, tales como:
 
     .row.my-5
       SlyderF(columnas="col-lg-6 col-xl-4")
@@ -148,8 +148,8 @@
         ul.lista-ul(data-aos="fade-down-left")
           li 
             i.fas.fa-stop.vineta-fuscia-stop
-            | #[strong Las redes sociales y su uso]
-        p Otro de los aspectos que debe manejar para la producción de eventos es el almacenamiento en la nube como una ventaja competitiva frente a la competencia.
+            | #[strong Las redes sociales y sus usos]
+        p Otro de los aspectos que se deben tener en cuenta en la producción de eventos es el uso de las redes sociales y a su vez el manejo de almacenamiento en la nube como una ventaja competitiva.
 
     .bkg-slyder.px-5.py-5.mb-5.mt-5
       SlyderA(tipo="b")
