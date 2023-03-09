@@ -112,7 +112,7 @@
               p.mt-3 Inicia con la creación de una cuenta con un nombre de usuario (#[em login, name] o alias) y un área de almacenamiento para los mensajes (buzón de correo o #[em mail box]). 
 
 
-          .row.justify-content-center.my-4(titulo="<em>e-mails</em> masivos")
+          .row.justify-content-center.my-4(titulo="<em>E-mails</em> masivos")
             .col.col-lg-4
               figure
                 img(src='@/assets/curso/temas/tema2/t2-13.svg', alt='')            
@@ -155,7 +155,7 @@
       SlyderA(tipo="b")
         .row.justify-content-center
           .col-md-8
-            h2 Facebook:
+            h2 Facebook
             p Permite dar a conocer el evento, ganar visibilidad, crear y comunicar promociones, crear una tienda #[em online] y fidelizar clientes.
             
           .col-md-4
@@ -164,7 +164,7 @@
 
         .row.justify-content-center
           .col-md-8
-            h2 Instagram:
+            h2 Instagram
             p Una imagen vale más que mil palabras. Ayuda a crear comunidad, mostrar los productos y mejorar la imagen de la marca.
             
           .col-md-4
@@ -173,7 +173,7 @@
 
         .row.justify-content-center
           .col-md-8
-            h2 YouTube:
+            h2 YouTube
             p Permite crear contenido dinámico en formato de video y en diferentes longitudes, facilita mostrar videos sobre la empresa, servicios, etc.
           .col-md-4
             figure
@@ -181,7 +181,7 @@
 
         .row.justify-content-center
           .col-md-8
-            h2 Twitter:
+            h2 Twitter
             p Da a conocer lo que se dice de la marca o servicio,  es un medio de contacto con los clientes para atención a quejas y comunicación de avisos cortos.
           .col-md-4
             figure
@@ -189,7 +189,7 @@
 
         .row.justify-content-center
           .col-md-8
-            h2 LinkedIn:
+            h2 LinkedIn
             p Permite desarrollar una imagen corporativa, encontrar colaboradores, comunicar proyectos e incrementar relaciones con otras marcas.
           .col-md-4
             figure

@@ -596,25 +596,25 @@
           li 
             i.fas.fa-stop.vineta-fuscia-stop
             | #[strong Principio de las 5S]
-        p A continuación, se mencionan los elementos que componen el proceso de almacenamiento para realizarlo de forma sencilla pero práctica.
+        p A continuación, se mencionan los elementos que componen el proceso de almacenamiento para realizarlo de forma sencilla pero práctica:
 
     .row.justify-content-center.mt-5
       .col-lg-8      
         AcordionA(tipo="b" clase-tarjeta="tarjeta acordeonA").mt-5
           .row(titulo="<em>Seiro</em>").p-3
-            p Clasificación. Se realiza de acuerdo a las características del equipo. Además, se trata de identificar y separar los necesarios de los innecesarios, eliminando estos últimos al momento de planear el servicio. 
+            p <b>Clasificación.</b> Se realiza de acuerdo a las características del equipo. Además, se trata de identificar y separar los necesarios de los innecesarios, eliminando estos últimos al momento de planear el servicio. 
           
           .row(titulo="<em>Seinton</em>").p-3
-            p Organizar. Consiste en establecer el modo en que deben ubicarse los equipos necesarios, de manera que sea fácil y rápido encontrarlos, utilizarlos y reponerlos.
+            p <b>Organizar.</b> Consiste en establecer el modo en que deben ubicarse los equipos necesarios, de manera que sea fácil y rápido encontrarlos, utilizarlos y reponerlos.
             
           .row(titulo="<em>Seiso</em>").p-3
-            p Limpieza. Radica en identificar y eliminar las fuentes de suciedad, asegurando que todos los medios del equipo se encuentren siempre perfectamente limpios.
+            p <b>Limpieza.</b> Radica en identificar y eliminar las fuentes de suciedad, asegurando que todos los medios del equipo se encuentren siempre perfectamente limpios.
 
           .row(titulo="<em>Seiketsu</em>").p-3
-            p Estandarizar. Consiste en distinguir fácilmente una situación normal de otra anormal, mediante normas sencillas y visibles para el control de equipos.
+            p <b>Estandarizar.</b> Consiste en distinguir fácilmente una situación normal de otra anormal, mediante normas sencillas y visibles para el control de equipos.
 
           .row(titulo="<em>Shitsuke</em>").p-3
-            p Disciplina. Hace referencia a construir autodisciplina y formar el hábito de las 5S mediante el establecimiento de estándares y seguimiento de los procedimientos en el lugar de trabajo.
+            p <b>Disciplina.</b> Hace referencia a construir autodisciplina y formar el hábito de las 5S mediante el establecimiento de estándares y seguimiento de los procedimientos en el lugar de trabajo.
 
       .col-lg-4          
         figure
