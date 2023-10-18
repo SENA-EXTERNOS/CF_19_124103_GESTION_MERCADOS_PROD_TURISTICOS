@@ -628,7 +628,10 @@
       SlyderA(tipo="b")
         .row.justify-content-center
           .col-md-8
-            p.text-bold Técnica        
+            ul.lista-ul
+                li 
+                  i.fas.fa-circle.vineta-fuscia-circle
+                  | #[strong Técnica:]       
             p La técnica que dice cómo hacer las cosas se basa en experiencias previas que han permitido su estandarización (SENA, 2017).
             
           .col-md-4
@@ -637,7 +640,10 @@
 
         .row.justify-content-center
           .col-md-8
-            p.text-bold Almacenamiento
+            ul.lista-ul
+                li 
+                  i.fas.fa-circle.vineta-fuscia-circle
+                  | #[strong Almacenamiento:]
             p En la producción de eventos el almacenamiento de insumos, equipos y material en general es una actividad cuidadosa que pretende preservar y mantener en óptimas condiciones lo requerido para las actividades con turistas.
             
           .col-md-4
@@ -646,7 +652,10 @@
 
         .row.justify-content-center
           .col-md-8
-            p.text-bold Armario de bodega
+            ul.lista-ul
+                li 
+                  i.fas.fa-circle.vineta-fuscia-circle
+                  | #[strong Armario de bodega:]
             p Para el correcto almacenamiento se recomienda utilizar un armario o una bodega donde se puedan guardar, por medio de ganchos anclados a la pared, los diferentes equipos y elementos para así evitar caídas y golpes.
           .col-md-4
             figure
@@ -654,7 +663,10 @@
 
         .row.justify-content-center
           .col-md-8
-            p.text-bold Lugar de almacenamiento 
+            ul.lista-ul
+                li 
+                  i.fas.fa-circle.vineta-fuscia-circle
+                  | #[strong Lugar de almacenamiento:]
             p El lugar de almacenamiento debe ser ventilado y preferiblemente libre de humedad, evitando que los equipos queden expuestos a la luz del sol.
           .col-md-4
             figure
@@ -662,7 +674,10 @@
 
         .row.justify-content-center
           .col-md-8
-            p.text-bold Equipos
+            ul.lista-ul
+                li 
+                  i.fas.fa-circle.vineta-fuscia-circle
+                  | #[strong Equipos:]
             p Los equipos se almacenan junto a la ficha técnica con las especificaciones establecidas para cada uno.
           .col-md-4
             figure
@@ -670,7 +685,10 @@
 
         .row.justify-content-center
           .col-md-8
-            p.text-bold Espacios
+            ul.lista-ul
+                li 
+                  i.fas.fa-circle.vineta-fuscia-circle
+                  | #[strong Espacios:]
             p Una vez analizado el aprovechamiento de los espacios y de las áreas especiales de almacenamiento, #[strong se deben tener en cuenta los siguientes elementos (SENA, 2017):]
           .col-md-4
             figure
